@@ -18,3 +18,25 @@ I was introduced to Steiner systems from [this review article](https://dl.acm.or
 Some cool facts about Steiner systems:
 * If you have a Steiner system $$S(t,k,v)$$, you can make a Steiner system $$S(t-1, k-1, v-1)$$ by choosing all blocks with a certain number, and deleting that number.
 * Steiner systems follow divisibility rules: $$S(t,k,v)$$ only can exist if $${k-i \choose t-i}$$ divides $${v-i \choose t-i}$$ for all $$i \in \{0,\cdots,t-1\}$$.
+
+## Table of $$S(t, t+1, v)$$
+
+* "Trivial": There is always a "trivial" Steiner system $$S(t,k,k)$$ with one block including all numbers from 1 to k.
+* "Pairs": If $$v$$ is even, then pairing all numbers from 1 to v forms a Steiner system $$S(1, 2, v)$$.
+
+|     | $$t=1$$ | $$t=2$$ | $$t=3$$ | $$t=4$$ | $$t=5$$ | $$t=6$$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| $$v=1$$ |  -  |  -  |  -  |  -  |  -  |  -  |
+| $$v=2$$ |  Trivial  |  -  |  -  |  -  |  -  |  -  |
+| $$v=3$$ |  ✖  |  Trivial  |  -  |  -  |  -  |  -  |
+| $$v=4$$ |  Pairs  |  ✖  |  Trivial  |  -  |  -  |  -  |
+| $$v=5$$ |  ✖  |  ✖  |     |  Trivial  |  -  |  -  |
+| $$v=6$$ |  Pairs  |  ✖  |     |     |  Trivial  |  -  |
+| $$v=7$$ |  ✖  |  [Fano](https://en.wikipedia.org/wiki/Fano_plane)  |     |     |     |  Trivial  |
+| $$v=8$$ |  Pairs  |  ✖  |     |     |     |     |
+| $$v=9$$ |  ✖  |    |     |     |     |     |
+| $$v=10$$|  Pairs  |  ✖  |     |     |     |     |
+| $$v=11$$|  ✖  |  ✖  |     |     |     |     |
+| $$v=12$$|  Pairs  |  ✖  |     |     |     |     |
+| $$v=13$$|  ✖  |     |     |     |     |     |
+| $$v=14$$|  Pairs  |  ✖  |     |     |     |     |
