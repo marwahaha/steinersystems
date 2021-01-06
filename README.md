@@ -30,13 +30,13 @@ Here are the divisibility rules for small $$t$$ when $$k = t+1$$:
 | $$t=3$$ |            $$v = 2\text{ or } 4 \text{, mod }6$$             |
 | $$t=4$$ | $$v = 3\text{ or } 5 \text{, mod }6$$ and $$v \ne 4\text{, mod } 5$$ |
 | $$t=5$$ | $$v = 0\text{ or } 4 \text{, mod }6$$ and $$v \ne 0\text{, mod } 5$$ |
-| $$t=6$$ | $$v = 1\text{ or } 5 \text{, mod }6$$ and $$v \ne 1\text{, mod } 5$$ and $$v \ne 1\text{, mod } 5$$ and $$v \ne 6\text{, mod 7}$$ |
+| $$t=6$$ | $$v = 1\text{ or } 5 \text{, mod }6$$ and $$v \ne 1\text{, mod } 5$$ and $$v \ne 6\text{, mod 7}$$ |
 
 Here's a list of small Steiner systems we know about.
 
 * "Trivial": There is always a Steiner system $$S(t,k,k)$$ with one block including all numbers from 1 to k.
 * "Pairs": If $$v$$ is even, then pairing all numbers from 1 to v forms a Steiner system $$S(1, 2, v)$$.
-* "✖", "❌": No Steiner system can exist because of divisibility rules.
+* "✖", "❌", "❎", "☠️": No Steiner system can exist because of divisibility rules.
 * "-":  These values do not form a valid Steiner system; $$t$$ must be smaller than $$v$$.
 
 |     | $$t=1$$ | $$t=2$$ | $$t=3$$ | $$t=4$$ | $$t=5$$ | $$t=6$$ |
@@ -49,9 +49,25 @@ Here's a list of small Steiner systems we know about.
 | $$v=6$$ |  Pairs  |  ✖  | ❌ | ✖ |  Trivial  |  -  |
 | $$v=7$$ |  ✖  |  [Fano](https://en.wikipedia.org/wiki/Fano_plane)  | ✖ | ❌ | ✖ |  Trivial  |
 | $$v=8$$ |  Pairs  |  ✖  |     | ✖ | ❌ | ✖ |
-| $$v=9$$ |  ✖  |    | ✖ |     | ✖ | ❌ |
-| $$v=10$$|  Pairs  |  ✖  |     | ✖ |     | ✖ |
-| $$v=11$$|  ✖  |  ❌  | ✖ |     | ✖ |     |
+| $$v=9$$ |  ✖  |    | ✖ | ❎ | ✖ | ❌ |
+| $$v=10$$|  Pairs  |  ✖  |     | ✖ | ❎ | ✖ |
+| $$v=11$$|  ✖  |  ❌  | ✖ |     | ✖ | ❎ |
 | $$v=12$$|  Pairs  |  ✖  | ❌ | ✖ |     | ✖ |
-| $$v=13$$|  ✖  |     | ✖ | ❌ |    ✖    |     |
+| $$v=13$$|  ✖  |     | ✖ | ❌ |    ✖    | ☠️ |
 | $$v=14$$|  Pairs  |  ✖  |     | ✖ | ❌ | ✖ |
+| $$v=15$$ | ✖ |  | ✖ |  | ✖ |  |
+| $$v=16$$ |  | ✖ | | ✖ |  | ✖ |
+| $$v=17$$ | ✖ | ❌ | ✖ |  | ✖ |  |
+| $$v=18$$ |  | ✖ | ❌ | ✖ |  | ✖ |
+| $$v=19$$ | ✖ |  | ✖ | ❌ | ✖ |  |
+| $$v=20$$ |  | ✖ | | ✖ | ❌ | ✖ |
+| $$v=21$$ | ✖ |  | ✖ |  | ✖ | ❌ |
+| $$v=22$$ |  | ✖ | | ✖ |  | ✖ |
+| $$v=23$$ | ✖ | ❌ | ✖ |  | ✖ |  |
+| $$v=24$$ |  | ✖ | ❌ | ✖ |  | ✖ |
+| $$v=25$$ | ✖ |  | ✖ | ❌ | ✖ |  |
+| $$v=26$$ |  | ✖ | | ✖ | ❌ | ✖ |
+| $$v=27$$ | ✖ |  | ✖ |  | ✖ | ❌ |
+| $$v=28$$ |  | ✖ | | ✖ |  | ✖ |
+| $$v=29$$ | ✖ | ❌ | ✖ | ❎ | ✖ |  |
+
