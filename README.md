@@ -21,7 +21,7 @@ Some cool facts about Steiner systems:
 
 ## Table of $$S(t, t+1, v)$$
 
-Here are the divisibility rules for small $t$ when $k = t+1$:
+Here are the divisibility rules for small $$t$$ when $$k = t+1$$:
 
 |         |                         Divisibility                         |
 | :-----: | :----------------------------------------------------------: |
@@ -36,8 +36,8 @@ Here's a list of small Steiner systems we know about.
 
 * "Trivial": There is always a Steiner system $$S(t,k,k)$$ with one block including all numbers from 1 to k.
 * "Pairs": If $$v$$ is even, then pairing all numbers from 1 to v forms a Steiner system $$S(1, 2, v)$$.
-* "✖": No Steiner system can exist because of divisibility rules.
-* "-":  These values do not form a valid Steiner system; $t$ must be smaller than $v$.
+* "✖", "❌": No Steiner system can exist because of divisibility rules.
+* "-":  These values do not form a valid Steiner system; $$t$$ must be smaller than $$v$$.
 
 |     | $$t=1$$ | $$t=2$$ | $$t=3$$ | $$t=4$$ | $$t=5$$ | $$t=6$$ |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -45,13 +45,13 @@ Here's a list of small Steiner systems we know about.
 | $$v=2$$ |  Trivial  |  -  |  -  |  -  |  -  |  -  |
 | $$v=3$$ |  ✖  |  Trivial  |  -  |  -  |  -  |  -  |
 | $$v=4$$ |  Pairs  |  ✖  |  Trivial  |  -  |  -  |  -  |
-| $$v=5$$ |  ✖  |  ✖  | ✖ |  Trivial  |  -  |  -  |
-| $$v=6$$ |  Pairs  |  ✖  | ✖ | ✖ |  Trivial  |  -  |
-| $$v=7$$ |  ✖  |  [Fano](https://en.wikipedia.org/wiki/Fano_plane)  | ✖ | ✖ | ✖ |  Trivial  |
-| $$v=8$$ |  Pairs  |  ✖  |     | ✖ | ✖ | ✖ |
-| $$v=9$$ |  ✖  |    | ✖ |     | ✖ | ✖ |
+| $$v=5$$ |  ✖  |  ❌  | ✖ |  Trivial  |  -  |  -  |
+| $$v=6$$ |  Pairs  |  ✖  | ❌ | ✖ |  Trivial  |  -  |
+| $$v=7$$ |  ✖  |  [Fano](https://en.wikipedia.org/wiki/Fano_plane)  | ✖ | ❌ | ✖ |  Trivial  |
+| $$v=8$$ |  Pairs  |  ✖  |     | ✖ | ❌ | ✖ |
+| $$v=9$$ |  ✖  |    | ✖ |     | ✖ | ❌ |
 | $$v=10$$|  Pairs  |  ✖  |     | ✖ |     | ✖ |
-| $$v=11$$|  ✖  |  ✖  | ✖ |     | ✖ |     |
-| $$v=12$$|  Pairs  |  ✖  | ✖ | ✖ |     | ✖ |
-| $$v=13$$|  ✖  |     | ✖ | ✖ |    ✖    |     |
-| $$v=14$$|  Pairs  |  ✖  |     | ✖ | ✖ | ✖ |
+| $$v=11$$|  ✖  |  ❌  | ✖ |     | ✖ |     |
+| $$v=12$$|  Pairs  |  ✖  | ❌ | ✖ |     | ✖ |
+| $$v=13$$|  ✖  |     | ✖ | ❌ |    ✖    |     |
+| $$v=14$$|  Pairs  |  ✖  |     | ✖ | ❌ | ✖ |
