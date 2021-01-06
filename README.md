@@ -25,12 +25,12 @@ Here are the divisibility rules for small $$t$$ when $$k = t+1$$:
 
 |         | Divisibility                                                 |
 | :-----: | :----------------------------------------------------------- |
-| $$t=1$$ | $$v = 0\text{ mod }2$$                                      |
-| $$t=2$$ | $$v = 1\text{ mod }2$$ and $$v \ne 2 \text{ mod }3$$       |
-| $$t=3$$ | $$v = 0\text{ mod }2$$ and $$v \ne 0 \text{ mod }3$$       |
-| $$t=4$$ | $$v = 1\text{ mod }2$$ and $$v \ne 1 \text{ mod }3$$ and $$v \ne 4\text{ mod } 5$$ |
-| $$t=5$$ | $$v = 0\text{ mod }2$$ and $$v \ne 2 \text{ mod }3$$ and $$v \ne 0\text{ mod } 5$$ |
-| $$t=6$$ | $$v = 1\text{ mod }2$$ and $$v \ne 0 \text{ mod }3$$ and $$v \ne 1\text{ mod } 5$$ and $$v \ne 6\text{ mod 7}$$ |
+| $$t=1$$ | $$v \ne 1\text{ mod }2$$                                     |
+| $$t=2$$ | $$v \ne 0\text{ mod }2$$ and $$v \ne 2 \text{ mod }3$$       |
+| $$t=3$$ | $$v \ne 1 \text{ mod }2$$ and $$v \ne 0 \text{ mod }3$$      |
+| $$t=4$$ | $$v \ne 0 \text{ mod }2$$ and $$v \ne 1 \text{ mod }3$$ and $$v \ne 4\text{ mod } 5$$ |
+| $$t=5$$ | $$v \ne 1\text{ mod }2$$ and $$v \ne 2 \text{ mod }3$$ and $$v \ne 0\text{ mod } 5$$ |
+| $$t=6$$ | $$v \ne 0 \text{ mod }2$$ and $$v \ne 0 \text{ mod }3$$ and $$v \ne 1\text{ mod } 5$$ and $$v \ne 6\text{ mod 7}$$ |
 
 I've listed a table below of small values of $$t$$ and $$v$$.
 
