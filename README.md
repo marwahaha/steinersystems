@@ -44,7 +44,7 @@ I've listed a table below of small values of $$t$$ and $$v$$.
   * "**✔️**": There are Steiner systems at each $$v$$ that satisfies the divisibility rules, as shown [for t=2](https://www.mscand.dk/article/view/10551/8572) and [for t=3](https://core.ac.uk/download/pdf/82538615.pdf).
   * "**M**$$_{12}$$", "**M**$$_{11}$$": The Steiner system S(5, 6, 12) corresponds to the Mathieu group **M**$$_{12}$$, which induces S(4, 5, 11) and Mathieu group **M**$$_{11}$$.
   * "**PSL$$_2$$(23)"**: There is a known Steiner system S(5, 6, 24), as described [here](https://www.ams.org/journals/mcom/1998-67-221/S0025-5718-98-00924-7/S0025-5718-98-00924-7.pdf) and [here](https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/blms/8.3.263), which induces S(4, 5, 23).
-* For the entries marked "***?***",  we simply don't know if there's a Steiner system here!
+* For the entries marked "***???***",  we simply don't know if there's a Steiner system here!
 
 |     | $$t=1$$ | $$t=2$$ | $$t=3$$ | $$t=4$$ | $$t=5$$ | $$t=6$$ |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -68,12 +68,12 @@ I've listed a table below of small values of $$t$$ and $$v$$.
 | $$v=18$$ | Pairs | ☠️ | ❌ | ☠️ | DNE | ☠️ |
 | $$v=19$$ | ☠️ | **✔️** | ☠️ | ❌ | ☠️ | DNE |
 | $$v=20$$ | Pairs | ☠️ | **✔️** | ☠️ | ❌ | ☠️ |
-| $$v=21$$ | ☠️ | **✔️** | ☠️ | ***?*** | ☠️ | ❌ |
-| $$v=22$$ | Pairs | ☠️ | **✔️** | ☠️ | ***?*** | ☠️ |
-| $$v=23$$ | ☠️ | ❌ | ☠️ | **PSL$$_2$$(23)** | ☠️ | ***?*** |
+| $$v=21$$ | ☠️ | **✔️** | ☠️ | ***???*** | ☠️ | ❌ |
+| $$v=22$$ | Pairs | ☠️ | **✔️** | ☠️ | ***???*** | ☠️ |
+| $$v=23$$ | ☠️ | ❌ | ☠️ | **PSL$$_2$$(23)** | ☠️ | ***???*** |
 | $$v=24$$ | Pairs | ☠️ | ❌ | ☠️ | **PSL$$_2$$(23)** | ☠️ |
-| $$v=25$$ | ☠️ | **✔️** | ☠️ | ❌ | ☠️ | ***?*** |
+| $$v=25$$ | ☠️ | **✔️** | ☠️ | ❌ | ☠️ | ***???*** |
 | $$v=26$$ | Pairs | ☠️ | **✔️** | ☠️ | ❌ | ☠️ |
-| $$v=27$$ | ☠️ | **✔️** | ☠️ | ***?*** | ☠️ | ❌ |
-| $$v=28$$ | Pairs | ☠️ | **✔️** | ☠️ | ***?*** | ☠️ |
-| $$v=29$$ | ☠️ | ❌ | ☠️ | ❎ | ☠️ | ***?*** |
+| $$v=27$$ | ☠️ | **✔️** | ☠️ | ***???*** | ☠️ | ❌ |
+| $$v=28$$ | Pairs | ☠️ | **✔️** | ☠️ | ***???*** | ☠️ |
+| $$v=29$$ | ☠️ | ❌ | ☠️ | ❎ | ☠️ | ***???*** |
