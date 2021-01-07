@@ -39,8 +39,8 @@ I've listed a table below of small values of $$t$$ and $$v$$.
   * "-":  These values do not form a valid Steiner system; $$t$$ must be smaller than $$v$$.
   * "DNE": There are no Steiner systems S(4, 5, 15) or S(4, 5, 17), as [computationally verified here](https://www.sciencedirect.com/science/article/pii/S0097316508000617?via%3Dihub).
 * Some values do have a Steiner system:
-  * "Trivial": There is always a Steiner system $$S(t,k,k)$$ with one block including all numbers from 1 to k.
-  * "Pairs": If $$v$$ is even, then pairing all numbers from 1 to v forms a Steiner system $$S(1, 2, v)$$.
+  * "**Trivial**": There is always a Steiner system $$S(t,k,k)$$ with one block including all numbers from 1 to k.
+  * "**Pairs**": If $$v$$ is even, then pairing all numbers from 1 to v forms a Steiner system $$S(1, 2, v)$$.
   * "**✔️**": There are Steiner systems at each $$v$$ that satisfies the divisibility rules, as shown [for t=2](https://www.mscand.dk/article/view/10551/8572) and [for t=3](https://core.ac.uk/download/pdf/82538615.pdf).
   * "**M**$$_{12}$$", "**M**$$_{11}$$": The Steiner system S(5, 6, 12) corresponds to the Mathieu group **M**$$_{12}$$, which induces S(4, 5, 11) and Mathieu group **M**$$_{11}$$.
   * "**PSL$$_2$$(23)"**: There is a known Steiner system S(5, 6, 24), as described [here](https://www.ams.org/journals/mcom/1998-67-221/S0025-5718-98-00924-7/S0025-5718-98-00924-7.pdf) and [here](https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/blms/8.3.263), which induces S(4, 5, 23).
@@ -49,31 +49,31 @@ I've listed a table below of small values of $$t$$ and $$v$$.
 |     | $$t=1$$ | $$t=2$$ | $$t=3$$ | $$t=4$$ | $$t=5$$ | $$t=6$$ |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | $$v=1$$ |  -  |  -  |  -  |  -  |  -  |  -  |
-| $$v=2$$ |  Trivial  |  -  |  -  |  -  |  -  |  -  |
-| $$v=3$$ |  ☠️  |  Trivial  |  -  |  -  |  -  |  -  |
-| $$v=4$$ |  Pairs  |  ☠️  |  Trivial  |  -  |  -  |  -  |
-| $$v=5$$ |  ☠️  |  ❌  | ☠️ |  Trivial  |  -  |  -  |
-| $$v=6$$ |  Pairs  |  ☠️  | ❌ | ☠️ |  Trivial  |  -  |
-| $$v=7$$ |  ☠️  |  **✔️ ([Fano](https://en.wikipedia.org/wiki/Fano_plane))**  | ☠️ | ❌ | ☠️ |  Trivial  |
-| $$v=8$$ |  Pairs  |  ☠️  | **✔️** | ☠️ | ❌ | ☠️ |
+| $$v=2$$ |  **Trivial**  |  -  |  -  |  -  |  -  |  -  |
+| $$v=3$$ |  ☠️  |  **Trivial**  |  -  |  -  |  -  |  -  |
+| $$v=4$$ |  **Pairs**  |  ☠️  |  **Trivial**  |  -  |  -  |  -  |
+| $$v=5$$ |  ☠️  |  ❌  | ☠️ |  **Trivial**  |  -  |  -  |
+| $$v=6$$ |  **Pairs**  |  ☠️  | ❌ | ☠️ |  **Trivial**  |  -  |
+| $$v=7$$ |  ☠️  |  **✔️ ([Fano](https://en.wikipedia.org/wiki/Fano_plane))**  | ☠️ | ❌ | ☠️ |  **Trivial**  |
+| $$v=8$$ |  **Pairs**  |  ☠️  | **✔️** | ☠️ | ❌ | ☠️ |
 | $$v=9$$ |  ☠️  | **✔️** | ☠️ | ❎ | ☠️ | ❌ |
-| $$v=10$$|  Pairs  |  ☠️  | **✔️** | ☠️ | ❎ | ☠️ |
+| $$v=10$$|  **Pairs**  |  ☠️  | **✔️** | ☠️ | ❎ | ☠️ |
 | $$v=11$$|  ☠️  |  ❌  | ☠️ | **M**$$_{11}$$ | ☠️ | ❎ |
-| $$v=12$$|  Pairs  |  ☠️  | ❌ | ☠️ | **M**$$_{12}$$ | ☠️ |
+| $$v=12$$|  **Pairs**  |  ☠️  | ❌ | ☠️ | **M**$$_{12}$$ | ☠️ |
 | $$v=13$$|  ☠️  | **✔️** | ☠️ | ❌ |    ☠️    | ✖ |
-| $$v=14$$|  Pairs  |  ☠️  | **✔️** | ☠️ | ❌ | ☠️ |
+| $$v=14$$|  **Pairs**  |  ☠️  | **✔️** | ☠️ | ❌ | ☠️ |
 | $$v=15$$ | ☠️ | **✔️** | ☠️ | DNE | ☠️ | ❌ |
-| $$v=16$$ | Pairs | ☠️ | **✔️** | ☠️ | DNE | ☠️ |
+| $$v=16$$ | **Pairs** | ☠️ | **✔️** | ☠️ | DNE | ☠️ |
 | $$v=17$$ | ☠️ | ❌ | ☠️ | DNE | ☠️ | DNE |
-| $$v=18$$ | Pairs | ☠️ | ❌ | ☠️ | DNE | ☠️ |
+| $$v=18$$ | **Pairs** | ☠️ | ❌ | ☠️ | DNE | ☠️ |
 | $$v=19$$ | ☠️ | **✔️** | ☠️ | ❌ | ☠️ | DNE |
-| $$v=20$$ | Pairs | ☠️ | **✔️** | ☠️ | ❌ | ☠️ |
+| $$v=20$$ | **Pairs** | ☠️ | **✔️** | ☠️ | ❌ | ☠️ |
 | $$v=21$$ | ☠️ | **✔️** | ☠️ | ***???*** | ☠️ | ❌ |
-| $$v=22$$ | Pairs | ☠️ | **✔️** | ☠️ | ***???*** | ☠️ |
+| $$v=22$$ | **Pairs** | ☠️ | **✔️** | ☠️ | ***???*** | ☠️ |
 | $$v=23$$ | ☠️ | ❌ | ☠️ | **PSL$$_2$$(23)** | ☠️ | ***???*** |
-| $$v=24$$ | Pairs | ☠️ | ❌ | ☠️ | **PSL$$_2$$(23)** | ☠️ |
+| $$v=24$$ | **Pairs** | ☠️ | ❌ | ☠️ | **PSL$$_2$$(23)** | ☠️ |
 | $$v=25$$ | ☠️ | **✔️** | ☠️ | ❌ | ☠️ | ***???*** |
-| $$v=26$$ | Pairs | ☠️ | **✔️** | ☠️ | ❌ | ☠️ |
+| $$v=26$$ | **Pairs** | ☠️ | **✔️** | ☠️ | ❌ | ☠️ |
 | $$v=27$$ | ☠️ | **✔️** | ☠️ | ***???*** | ☠️ | ❌ |
-| $$v=28$$ | Pairs | ☠️ | **✔️** | ☠️ | ***???*** | ☠️ |
+| $$v=28$$ | **Pairs** | ☠️ | **✔️** | ☠️ | ***???*** | ☠️ |
 | $$v=29$$ | ☠️ | ❌ | ☠️ | ❎ | ☠️ | ***???*** |
