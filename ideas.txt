@@ -1,0 +1,14 @@
+The search for a new Steiner system:
+
+2020-01-11
+I wrote brute-force code that found S(2,3,7). With some optimizations, it could find S(2,3,9).
+
+2020-01-19
+I used the lexographic trick to reproduce S(5,8,24) (24-bits, groups of 8, avoid overlaps over 4)
+I tried adjusting the trick to find other Steiner systems, but this was unsuccessful.
+
+Future
+I could try investigating the PSL_2 group, and see if it could be applied to S(7,x,y) systems.
+I could also try local search algorithms, starting from the lexographic trick or brute-force code.
+
+It might be nice to share the webpage with others to identify other approaches.
