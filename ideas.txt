@@ -6,9 +6,10 @@ I wrote brute-force code that found S(2,3,7). With some optimizations, it could 
 2020-01-19
 I used the lexographic trick to reproduce S(5,8,24) (24-bits, groups of 8, avoid overlaps over 4)
 I tried adjusting the trick to find other Steiner systems, but this was unsuccessful.
+I also tried to look for S(6,7,49) by extending S(5,6,48), but my naive combine was way too big.
+I tried simplifying coverings with something like a local search, but I haven't been able to find anything new.
 
 Future
 I could try investigating the PSL_2 group, and see if it could be applied to S(7,x,y) systems.
-I could also try local search algorithms, starting from the lexographic trick or brute-force code.
-
+I could also try implementing local search algorithms.
 It might be nice to share the webpage with others to identify other approaches.
